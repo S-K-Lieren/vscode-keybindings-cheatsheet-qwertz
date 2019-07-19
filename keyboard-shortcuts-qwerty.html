@@ -1,0 +1,581 @@
+<html lang="en-US">
+
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="vscode_logo.png" height="100" />
+        <span>VSCode Cheat Sheet QWERT<strong>Y</strong></span>
+    </header>
+    <table id="container-table">
+        <tbody>
+            <tr>
+                <!-- Left Column -->
+                <td>
+                    <h3>General</h3>
+                    <table id="general" class="shortcuts">
+                        <tbody>
+                            <tr>
+                                <td class="key">Ctrl+Shift+P, F1</td>
+                                <td class="command">Show Command Palette</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+P</td>
+                                <td class="command">Quick Open, Go to File…</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+Shift+N</td>
+                                <td class="command">New window/instance</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+Shift+W</td>
+                                <td class="command">Close window/instance</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+,</td>
+                                <td class="command">User Settings</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+K Ctrl+S</td>
+                                <td class="command">Keyboard Shortcuts</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h3>Basic editing</h3>
+                    <table id="basic-editing" class="shortcuts">
+                        <tbody>
+                            <tr>
+                                <td class="key">Ctrl+X</td>
+                                <td class="command">Cut line (empty selection)</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+C</td>
+                                <td class="command">Copy line (empty selection)</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Alt+ ↑ / ↓</td>
+                                <td class="command">Move line up/down</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Shift+Alt + ↓ / ↑</td>
+                                <td class="command">Copy line up/down</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+Shift+K</td>
+                                <td class="command">Delete line</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+Enter</td>
+                                <td class="command">Insert line below</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+Shift+Enter</td>
+                                <td class="command">Insert line above</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+Shift+\</td>
+                                <td class="command">Jump to matching bracket</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+] / [</td>
+                                <td class="command">Indent/outdent line</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Home / End</td>
+                                <td class="command">Go to beginning/end of line</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+Home</td>
+                                <td class="command">Go to beginning of file</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+End</td>
+                                <td class="command">Go to end of file</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+↑ / ↓</td>
+                                <td class="command">Scroll line up/down</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Alt+PgUp / PgDn</td>
+                                <td class="command">Scroll page up/down</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+Shift+[</td>
+                                <td class="command">Fold (collapse) region</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+Shift+]</td>
+                                <td class="command">Unfold (uncollapse) region</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+K Ctrl+[</td>
+                                <td class="command">Fold (collapse) all subregions</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+K Ctrl+]</td>
+                                <td class="command">Unfold (uncollapse) all subregions</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+K Ctrl+0</td>
+                                <td class="command">Fold (collapse) all regions</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+K Ctrl+J</td>
+                                <td class="command">Unfold (uncollapse) all regions</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+K Ctrl+C</td>
+                                <td class="command">Add line comment</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+K Ctrl+U</td>
+                                <td class="command">Remove line comment</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+/</td>
+                                <td class="command">Toggle line comment</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Shift+Alt+A</td>
+                                <td class="command">Toggle block comment</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Alt+Z</td>
+                                <td class="command">Toggle word wrap</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h3>Navigation</h3>
+                    <table id="naviation" class="shortcuts">
+                        <tbody>
+                            <tr>
+                                <td class="key">Ctrl+T</td>
+                                <td class="command">Show all Symbols</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+G</td>
+                                <td class="command">Go to Line...</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+P</td>
+                                <td class="command">Go to File...</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+Shift+O</td>
+                                <td class="command">Go to Symbol...</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+Shift+M</td>
+                                <td class="command">Show Problems panel</td>
+                            </tr>
+                            <tr>
+                                <td class="key">F8</td>
+                                <td class="command">Go to next error or warning</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Shift+F8</td>
+                                <td class="command">Go to previous error or warning</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+Shift+Tab</td>
+                                <td class="command">Navigate editor group history</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Alt+ ← / →</td>
+                                <td class="command">Go back / forward</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+M</td>
+                                <td class="command">Toggle Tab moves focus</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+
+                <!-- Center Column -->
+                <td>
+                    <h3>Search and Replace</h3>
+                    <table id="search-and-replace" class="shortcuts">
+                        <tbody>
+                            <tr>
+                                <td class="key">Ctrl+F</td>
+                                <td class="command">Find</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+H</td>
+                                <td class="command">Replace</td>
+                            </tr>
+                            <tr>
+                                <td class="key">F3 / Shift+F3</td>
+                                <td class="command">Find next/previous</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Alt+Enter</td>
+                                <td class="command">Select all occurences of Find match</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+D</td>
+                                <td class="command">Add selection to next Find match</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+K Ctrl+D</td>
+                                <td class="command">Move last selection to next Find match</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Alt+C / R / W</td>
+                                <td class="command">Toggle case-sensitive / regex / whole word</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h3>Multi-cursor and selection</h3>
+                    <table id="multi-cursor" class="shortcuts">
+                        <tbody>
+                            <tr>
+                                <td class="key">Alt+Click</td>
+                                <td class="command">Insert cursor</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+Alt+ ↑ / ↓</td>
+                                <td class="command">Insert cursor above / below</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+U</td>
+                                <td class="command">Undo last cursor operation</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Shift+Alt+I</td>
+                                <td class="command">Insert cursor at end of each line selected</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+L</td>
+                                <td class="command">Select current line</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+Shift+L</td>
+                                <td class="command">Select all occurrences of current selection</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+F2</td>
+                                <td class="command">Select all occurrences of current word</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Shift+Alt+→</td>
+                                <td class="command">Expand selection</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Shift+Alt+←</td>
+                                <td class="command">Shrink selection</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Shift+Alt + (drag mouse)</td>
+                                <td class="command">Column (box) selection</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+Shift+Alt + (arrow key)</td>
+                                <td class="command">Column (box) selection</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+Shift+Alt +PgUp/PgDn</td>
+                                <td class="command">Column (box) selection page up/down</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h3>Rich languages editing</h3>
+                    <table id="rich-languages-editing" class="shortcuts">
+                        <tbody>
+                            <tr>
+                                <td class="key">Ctrl+Space</td>
+                                <td class="command">Trigger suggestion</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+Shift+Space</td>
+                                <td class="command">Trigger parameter hints</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Shift+Alt+F</td>
+                                <td class="command">Format document</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+K Ctrl+F</td>
+                                <td class="command">Format selection</td>
+                            </tr>
+                            <tr>
+                                <td class="key">F12</td>
+                                <td class="command">Go to Definition</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Alt+F12</td>
+                                <td class="command">Peek Definition</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+K F12</td>
+                                <td class="command">Open Definition to the side</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+.</td>
+                                <td class="command">Quick Fix</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Shift+F12</td>
+                                <td class="command">Show References</td>
+                            </tr>
+                            <tr>
+                                <td class="key">F2</td>
+                                <td class="command">Rename Symbol</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+K Ctrl+X</td>
+                                <td class="command">Trim trailing whitespace</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+K M</td>
+                                <td class="command">Change file language</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h3>Editor Management</h3>
+                    <table id="editor-management" class="shortcuts">
+                        <tbody>
+                            <tr>
+                                <td class="key">Ctrl+F4, Ctrl+W</td>
+                                <td class="command">Close editor</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+K F</td>
+                                <td class="command">Close folder</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+\</td>
+                                <td class="command">Split editor</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+ 1 / 2 / 3</td>
+                                <td class="command">Focus into 1st, 2nd or 3rd editor group</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+K Ctrl+ ←/→</td>
+                                <td class="command">Focus into previous/next editor group</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+Shift+PgUp / PgDn</td>
+                                <td class="command">Move editor left/right</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+K ← / →</td>
+                                <td class="command">Move active editor group</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+
+                <!-- Right Column -->
+                <td>
+                    <h3>File Management</h3>
+                    <table id="file-management" class="shortcuts">
+                        <tbody>
+                            <tr>
+                                <td class="key">Ctrl+N</td>
+                                <td class="command">New File</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+O</td>
+                                <td class="command">Open File...</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+S</td>
+                                <td class="command">Save</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+Shift+S</td>
+                                <td class="command">Save As...</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+K S</td>
+                                <td class="command">Save All</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+F4</td>
+                                <td class="command">Close</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+K Ctrl+W</td>
+                                <td class="command">Close All</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+Shift+T</td>
+                                <td class="command">Reopen closed editor</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+K Enter</td>
+                                <td class="command">Keep preview mode editor open</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+Tab</td>
+                                <td class="command">Open next</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+Shift+Tab</td>
+                                <td class="command">Open previous</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+K P</td>
+                                <td class="command">Copy path of active file</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+K R</td>
+                                <td class="command">Reveal active file in Explorer</td>
+                            </tr>
+                            <tr>
+                                <td class="key">Ctrl+K O</td>
+                                <td class="command">Show active file in new window/instance</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+                    <h3>Display</h3>
+                    <table id="display" class="shortcuts">
+                        <tbody>
+                                <tr>
+                                        <td class="key">F11</td>
+                                        <td class="command">Toggle full screen</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key">Shift+Alt+0</td>
+                                        <td class="command">Toggle editor layout (horizontal/vertical)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key">Ctrl+ = / -</td>
+                                        <td class="command">Zoom in/out</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key">Ctrl+B</td>
+                                        <td class="command">Toggle Sidebar visibility</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key">Ctrl+Shift+E</td>
+                                        <td class="command">Show Explorer / Toggle focus</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key">Ctrl+Shift+F</td>
+                                        <td class="command">Show Search</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key">Ctrl+Shift+G</td>
+                                        <td class="command">Show Source Control</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key">Ctrl+Shift+D</td>
+                                        <td class="command">Show Debug</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key">Ctrl+Shift+X</td>
+                                        <td class="command">Show Extensions</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key">Ctrl+Shift+H</td>
+                                        <td class="command">Replace in files</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key">Ctrl+Shift+J</td>
+                                        <td class="command">Toggle Search details</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key">Ctrl+Shift+U</td>
+                                        <td class="command">Show Output panel</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key">Ctrl+Shift+V</td>
+                                        <td class="command">Open Markdown preview</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key">Ctrl+K V</td>
+                                        <td class="command">Open Markdown preview to the</td>
+                                    </tr>
+                                    <tr>
+                                            <td class="key">Ctrl+K Z</td>
+                                            <td class="command">ZEN MODE (its the uber shit)</td>
+                                        </tr>
+                        </tbody>
+                    </table>
+
+                    <h3>Debug</h3>
+                    <table id="debug" class="shortcuts">
+                        <tbody>
+                                <tr>
+                                        <td class="key">F9</td>
+                                        <td class="command">Toggle breakpoint</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key">F5</td>
+                                        <td class="command">Start/Continue</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key">Shift+F5</td>
+                                        <td class="command">Stop</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key">F11 / Shift+F11</td>
+                                        <td class="command">Step into/out</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key">F10</td>
+                                        <td class="command">Step over</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key">Ctrl+K Ctrl+I</td>
+                                        <td class="command">Show hover</td>
+                                    </tr>
+                        </tbody>
+                    </table>
+
+
+                    <h3>Integrated Terminal</h3>
+                    <table id="integrated-terminal" class="shortcuts">
+                        <tbody>
+                                <tr>
+                                        <td class="key">Ctrl+`</td>
+                                        <td class="command">Show integrated terminal</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key">Ctrl+Shift+`</td>
+                                        <td class="command">Create new terminal</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key">Ctrl+C</td>
+                                        <td class="command">Copy selection</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key">Ctrl+V</td>
+                                        <td class="command">Paste into active terminal</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key">Ctrl+↑ / ↓</td>
+                                        <td class="command">Scroll up/down</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key">Shift+PgUp / PgDn</td>
+                                        <td class="command">Scroll page up/down</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key">Ctrl+Home / End</td>
+                                        <td class="command">Scroll to top/bottom</td>
+                                    </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

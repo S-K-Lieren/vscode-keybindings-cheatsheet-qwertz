@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header span {
+    color: #007acc;
+    position: relative;
+    margin-left: 20px;
+    margin-top:-20px;
+    font-size: 2rem;
+    font-weight:bold;
+}
+
+header span strong {
+    color: red;
+    text-decoration: underline;
+}
+
+table {
+    border: none;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%
+}
+
+table#container-table>tbody>tr {
+    height: 100vh;
+}
+
+table#container-table>tbody>tr>td {
+    width: 33vw;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.key {
+    font-weight: bold;
+}
+
+.shortcuts tr:nth-child(even) {
+    background-color: #dae5f4;
+}
+
+td.key,
+td.command {
+    width: 50%;
+    font-size: 12px;
+}
