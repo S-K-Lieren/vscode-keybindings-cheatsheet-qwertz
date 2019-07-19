@@ -1,2 +1,75 @@
-<a href="keyboard-shortcuts-qwerty.html">QWERTY</a>
-<a href="keyboard-shortcuts-qwertz.html">QWERTZ</a>
+<html>
+
+<head>
+    <title>VSCode Keybindings Cheat Sheets by Benjamin Kauer</title>
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+            overflow: hidden;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+            height: 10vh;
+        }
+
+        header span {
+            color: #007acc;
+            position: relative;
+            margin-left: 20px;
+            margin-top: -20px;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        #container {
+            height: 80vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .link-button {
+            border: 1px solid #007acc;
+            border-radius: 10px;
+            width: 25vw;
+            height: 50vh;
+            margin: 0 50px 0 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            -webkit-box-shadow: 10px 10px 16px -9px rgba(0, 101, 168, 0.75);
+            -moz-box-shadow: 10px 10px 16px -9px rgba(0, 101, 168, 0.75);
+            box-shadow: 10px 10px 16px -9px rgba(0, 101, 168, 0.75);
+        }
+
+        a {
+            text-decoration: none;
+
+        }
+
+        a span {
+            display: inline-block;
+            color: #007acc;
+            font-weight: bold;
+            font-size: 3rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="vscode_logo.png" height="100" />
+        <span>VSCode Keybindings Cheat Sheets</span>
+    </header>
+    <div id="container">
+        <a class="link-button" href="keyboard-shortcuts-qwerty.html"><span>QWERTY</span></a>
+        <a class="link-button" href="keyboard-shortcuts-qwertz.html"><span>QWERTZ</span></a>
+    </div>
+</body>
+
+</html>
