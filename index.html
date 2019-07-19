@@ -42,6 +42,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
             -webkit-box-shadow: 10px 10px 16px -9px rgba(0, 101, 168, 0.75);
             -moz-box-shadow: 10px 10px 16px -9px rgba(0, 101, 168, 0.75);
             box-shadow: 10px 10px 16px -9px rgba(0, 101, 168, 0.75);
@@ -67,9 +68,18 @@
         <span>VSCode Keybindings Cheat Sheets</span>
     </header>
     <div id="container">
-        <a class="link-button" href="keyboard-shortcuts-qwerty.html"><span>QWERTY</span></a>
-        <a class="link-button" href="keyboard-shortcuts-qwertz.html"><span>QWERTZ</span></a>
+        <a class="link-button" id="qwerty-link" href="keyboard-shortcuts-qwerty.html"><span>QWERTY</span><small>press Y</small></a>
+        <a class="link-button" id="qwertz-link" href="keyboard-shortcuts-qwertz.html"><span>QWERTZ</span><small>press Z</small></a>
     </div>
+
+    <script type="text/javascript">
+        document.querySelector("html").addEventListener('keypress',
+            (ev) => {
+                if (ev.key === 'y' || ev.key === 'z') {
+                    document.querySelector('#qwert'+ ev.key +'-link').click();
+                }
+            });
+    </script>
 </body>
 
 </html>
