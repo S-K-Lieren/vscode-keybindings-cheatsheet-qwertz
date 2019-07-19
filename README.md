@@ -2,7 +2,7 @@
 ### Tested on German keyboard
 
 Since I wasn't able to find any QWERTZ cheat sheets for VS Code, I decided to create my own.
-I still need to find a better way of delivering it, PDF is a pain to maintain.
 
+Also, since maintaining a PDF is a pain, I decided to use VSCodes magic (lots of shortcuts) to transform the table into a HTML document.
 
-# [Download here](https://benjaminkauer.github.io/vscode-keybindings-cheatsheet-qwertz/)
+# [Get it here](https://benjaminkauer.github.io/vscode-keybindings-cheatsheet-qwertz/)
